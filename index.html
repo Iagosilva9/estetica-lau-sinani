@@ -94,7 +94,7 @@
   .filtros{display:flex;justify-content:center;gap:10px;margin:40px 0 44px;flex-wrap:wrap}
   .filtro{background:transparent;border:1px solid var(--areia-2);padding:10px 22px;border-radius:999px;font-family:inherit;font-size:.9rem;cursor:pointer;color:var(--texto-2);transition:.2s}
   .filtro.ativo,.filtro:hover{background:var(--texto);border-color:var(--texto);color:var(--creme)}
-  .cards{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:22px}
+  .cards{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(300px,100%),1fr));gap:22px}
   .card{background:var(--branco);border-radius:var(--raio);padding:32px 28px;display:flex;flex-direction:column;gap:14px;border:1px solid var(--areia);transition:.3s}
   .card:hover{transform:translateY(-6px);box-shadow:var(--sombra);border-color:transparent}
   .card.oculto{display:none}
@@ -168,7 +168,11 @@
   .form small{font-size:.8rem;color:var(--texto-2);text-align:center}
   .contatos{display:grid;gap:18px;margin-top:34px}
   .contatos a,.contatos div{display:flex;gap:14px;align-items:center}
-  .contatos .icone{background:var(--branco)}
+  .contatos .icone{background:var(--branco);flex-shrink:0}
+  .agendar-grid>*,.hero-grid>*,.sobre-grid>*{min-width:0}
+  .contatos span,.insta-box .btn{overflow-wrap:anywhere}
+  .form>*,.form label{min-width:0}
+  .form input,.form select{width:100%;min-width:0}
 
   /* FAQ */
   .faq-lista{max-width:780px;margin:48px auto 0}
