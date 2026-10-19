@@ -3,10 +3,12 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Estética Lau Sinani | Estética Personalizada Corporal & Facial</title>
-<meta name="description" content="Estética Lau Sinani: tratamentos faciais e corporais personalizados. Limpeza de pele, drenagem linfática, pós-operatório, carboxiterapia, endolaser, massagem relaxante e mais. Agende sua avaliação.">
+<title>Estética Lau Sinani | Clínica de Estética em Embu das Artes - SP</title>
+<meta name="description" content="Clínica de estética em Embu das Artes - SP. Limpeza de pele, drenagem linfática, pós-operatório, carboxiterapia, endolaser, massagem relaxante e bronzeamento. Agende sua avaliação pelo WhatsApp.">
 <meta name="google-site-verification" content="J-VSkt5hpgib7ahzEoF0zb4whSaITlRWfHPQkLTHeOs" />
 <link rel="canonical" href="https://esteticalausinani.com.br/">
+<meta property="og:locale" content="pt_BR">
+<meta property="og:type" content="website">
 <meta property="og:title" content="Estética Lau Sinani">
 <meta property="og:description" content="Estética personalizada corporal & facial. Agende sua avaliação.">
 <meta property="og:url" content="https://esteticalausinani.com.br/">
@@ -96,6 +98,7 @@
   .hero{padding:56px 0 90px;position:relative;overflow:hidden}
   .hero::before{content:"";position:absolute;right:-180px;top:-120px;width:620px;height:620px;border-radius:50%;background:radial-gradient(circle,var(--areia) 0%,transparent 70%);z-index:-1}
   .hero-grid{display:grid;grid-template-columns:1.1fr .9fr;gap:60px;align-items:center}
+  .h1-marca{display:block;font-family:'Jost',sans-serif;font-size:.78rem;line-height:1.6}
   .hero p.lead{font-size:1.15rem;color:var(--texto-2);margin:22px 0 34px;max-width:520px}
   .hero-acoes{display:flex;gap:14px;flex-wrap:wrap}
   .prova{display:flex;gap:34px;margin-top:46px;flex-wrap:wrap}
@@ -257,6 +260,54 @@
   }
   @media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}.revela{opacity:1;transform:none}}
 </style>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Preciso fazer uma avaliação antes?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Sim. A avaliação é o primeiro passo para entender seu objetivo e indicar o tratamento e o número de sessões ideais para você."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Quantas sessões vou precisar?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Depende do tratamento, da sua pele e do seu objetivo. Na avaliação você recebe um plano personalizado com essa indicação."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Quando posso começar a drenagem pós-operatória?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "O início é sempre feito com a liberação do seu médico. A partir disso, montamos o protocolo para ajudar na sua recuperação, no conforto e na redução do inchaço."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "A drenagem linfática ajuda no lipedema?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Ela pode ser uma aliada importante para aliviar sintomas e melhorar o conforto, mas não elimina a gordura do lipedema. O ideal é associá-la ao acompanhamento médico."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Como faço para agendar?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "É só tocar em qualquer botão de WhatsApp aqui do site ou preencher o formulário de agendamento. Eu respondo para confirmar o melhor horário para você."
+      }
+    }
+  ]
+}
+</script>
 </head>
 <body>
 
@@ -303,9 +354,8 @@
   <section class="hero">
     <div class="container hero-grid">
       <div class="revela">
-        <span class="tag">Estética corporal &amp; facial</span>
-        <h1>Cuidado <em>personalizado</em> para você se sentir bem na própria pele</h1>
-        <p class="lead">Tratamentos faciais e corporais pensados para o seu objetivo, com atendimento acolhedor e cheio de carinho, do primeiro contato ao resultado.</p>
+        <h1><span class="tag h1-marca">Estética Lau Sinani · Embu das Artes</span>Cuidado <em>personalizado</em> para você se sentir bem na própria pele</h1>
+        <p class="lead">Tratamentos faciais e corporais em Embu das Artes, pensados para o seu objetivo, com atendimento acolhedor e cheio de carinho, do primeiro contato ao resultado.</p>
         <div class="hero-acoes">
           <a class="btn btn-ouro" data-zap="Olá, Lau! Vim pelo site e gostaria de agendar uma avaliação." href="#">
             <svg><use href="#i-zap"/></svg> Agendar pelo WhatsApp
@@ -319,7 +369,7 @@
         </div>
       </div>
       <div class="hero-foto revela">
-        <div class="arco"><img src="img/lau.png" alt="Laudicéia Sinani realizando tratamento corporal na Estética Lau Sinani"></div>
+        <div class="arco"><img src="img/lau.png" width="301" height="458" alt="Laudicéia Sinani realizando tratamento corporal na Estética Lau Sinani"></div>
         <div class="selo">
           <svg><use href="#i-lotus"/></svg>
           <div><b>Avaliação personalizada</b>Plano feito para você</div>
@@ -349,7 +399,78 @@
         <button class="filtro" data-filtro="corporal">Corporal</button>
         <button class="filtro" data-filtro="bem-estar">Bem-estar</button>
       </div>
-      <div class="cards" id="cards"></div>
+      <div class="cards" id="cards">
+        <article class="card revela" data-cat="facial">
+          <div class="card-topo"><span class="icone"><svg><use href="#i-rosto"/></svg></span><span class="cat">Facial</span></div>
+          <h3>Limpeza de pele profunda</h3>
+          <p>Desobstrui os poros, remove cravos e impurezas e deixa a pele macia, suave e saudável.</p>
+          <div class="chips"><span>Cravos</span><span>Oleosidade</span><span>Viço</span></div>
+          <a class="link" data-zap="Olá, Lau! Tenho interesse em Limpeza de pele profunda. Pode me passar mais informações?" href="https://wa.me/5511959828463">Quero saber mais <svg><use href="#i-seta"/></svg></a>
+        </article>
+        <article class="card revela" data-cat="facial">
+          <div class="card-topo"><span class="icone"><svg><use href="#i-lotus"/></svg></span><span class="cat">Facial</span></div>
+          <h3>Rejuvenescimento facial</h3>
+          <p>Protocolos para melhorar a textura, a firmeza e o brilho da pele, com resultados naturais.</p>
+          <div class="chips"><span>Firmeza</span><span>Linhas finas</span><span>Luminosidade</span></div>
+          <a class="link" data-zap="Olá, Lau! Tenho interesse em Rejuvenescimento facial. Pode me passar mais informações?" href="https://wa.me/5511959828463">Quero saber mais <svg><use href="#i-seta"/></svg></a>
+        </article>
+        <article class="card revela" data-cat="facial">
+          <div class="card-topo"><span class="icone"><svg><use href="#i-lab"/></svg></span><span class="cat">Facial</span></div>
+          <h3>Preenchimento labial</h3>
+          <p>Lábios mais definidos e hidratados, com naturalidade e sem exageros.</p>
+          <div class="chips"><span>Contorno</span><span>Volume</span><span>Naturalidade</span></div>
+          <a class="link" data-zap="Olá, Lau! Tenho interesse em Preenchimento labial. Pode me passar mais informações?" href="https://wa.me/5511959828463">Quero saber mais <svg><use href="#i-seta"/></svg></a>
+        </article>
+        <article class="card revela" data-cat="corporal">
+          <div class="card-topo"><span class="icone"><svg><use href="#i-gota"/></svg></span><span class="cat">Corporal</span></div>
+          <h3>Carboxiterapia</h3>
+          <p>Ajuda no tratamento de gordura localizada, estrias, celulite, flacidez e olheiras, estimulando a regeneração dos tecidos.</p>
+          <div class="chips"><span>Celulite</span><span>Estrias</span><span>Flacidez</span></div>
+          <a class="link" data-zap="Olá, Lau! Tenho interesse em Carboxiterapia. Pode me passar mais informações?" href="https://wa.me/5511959828463">Quero saber mais <svg><use href="#i-seta"/></svg></a>
+        </article>
+        <article class="card revela" data-cat="corporal">
+          <div class="card-topo"><span class="icone"><svg><use href="#i-raio"/></svg></span><span class="cat">Corporal</span></div>
+          <h3>Endolaser</h3>
+          <p>Tecnologia para tratar gordura localizada e flacidez, com foco em contorno e firmeza.</p>
+          <div class="chips"><span>Gordura localizada</span><span>Contorno</span></div>
+          <a class="link" data-zap="Olá, Lau! Tenho interesse em Endolaser. Pode me passar mais informações?" href="https://wa.me/5511959828463">Quero saber mais <svg><use href="#i-seta"/></svg></a>
+        </article>
+        <article class="card revela" data-cat="corporal">
+          <div class="card-topo"><span class="icone"><svg><use href="#i-corpo"/></svg></span><span class="cat">Corporal</span></div>
+          <h3>Emagrecimento &amp; medidas</h3>
+          <p>Protocolos corporais combinados para redução de medidas e definição do contorno.</p>
+          <div class="chips"><span>Medidas</span><span>Definição</span></div>
+          <a class="link" data-zap="Olá, Lau! Tenho interesse em Emagrecimento &amp; medidas. Pode me passar mais informações?" href="https://wa.me/5511959828463">Quero saber mais <svg><use href="#i-seta"/></svg></a>
+        </article>
+        <article class="card revela" data-cat="corporal">
+          <div class="card-topo"><span class="icone"><svg><use href="#i-maos"/></svg></span><span class="cat">Corporal</span></div>
+          <h3>Drenagem linfática</h3>
+          <p>Reduz o inchaço, melhora a circulação e traz leveza. Pode aliviar sintomas do lipedema.</p>
+          <div class="chips"><span>Inchaço</span><span>Circulação</span><span>Leveza</span></div>
+          <a class="link" data-zap="Olá, Lau! Tenho interesse em Drenagem linfática. Pode me passar mais informações?" href="https://wa.me/5511959828463">Quero saber mais <svg><use href="#i-seta"/></svg></a>
+        </article>
+        <article class="card revela" data-cat="corporal">
+          <div class="card-topo"><span class="icone"><svg><use href="#i-coracao"/></svg></span><span class="cat">Corporal</span></div>
+          <h3>Pós-operatório</h3>
+          <p>Acompanhamento especializado após cirurgias plásticas, com a liberação do seu médico, para uma recuperação mais confortável.</p>
+          <div class="chips"><span>Recuperação</span><span>Edema</span><span>Conforto</span></div>
+          <a class="link" data-zap="Olá, Lau! Tenho interesse em Pós-operatório. Pode me passar mais informações?" href="https://wa.me/5511959828463">Quero saber mais <svg><use href="#i-seta"/></svg></a>
+        </article>
+        <article class="card revela" data-cat="bem-estar">
+          <div class="card-topo"><span class="icone"><svg><use href="#i-maos"/></svg></span><span class="cat">Bem-estar</span></div>
+          <h3>Massagem relaxante</h3>
+          <p>Alivia tensões e dores musculares, melhora o sono e a circulação e promove bem-estar.</p>
+          <div class="chips"><span>Estresse</span><span>Sono</span><span>Tensões</span></div>
+          <a class="link" data-zap="Olá, Lau! Tenho interesse em Massagem relaxante. Pode me passar mais informações?" href="https://wa.me/5511959828463">Quero saber mais <svg><use href="#i-seta"/></svg></a>
+        </article>
+        <article class="card revela" data-cat="bem-estar">
+          <div class="card-topo"><span class="icone"><svg><use href="#i-sol"/></svg></span><span class="cat">Bem-estar</span></div>
+          <h3>Bronzeamento artificial</h3>
+          <p>Bronzeado dourado e uniforme em máquina deitada, com praticidade e segurança.</p>
+          <div class="chips"><span>Novidade</span><span>Verão</span></div>
+          <a class="link" data-zap="Olá, Lau! Tenho interesse em Bronzeamento artificial. Pode me passar mais informações?" href="https://wa.me/5511959828463">Quero saber mais <svg><use href="#i-seta"/></svg></a>
+        </article>
+      </div>
     </div>
   </section>
 
@@ -406,7 +527,7 @@
   <section id="sobre" class="sobre">
     <div class="container sobre-grid">
       <div class="sobre-fotos revela">
-        <div class="f1"><img src="img/lau.png" alt="Laudicéia Sinani, esteticista"></div>
+        <div class="f1"><img src="img/lau.png" width="301" height="458" loading="lazy" alt="Laudicéia Sinani, esteticista em Embu das Artes"></div>
       </div>
       <div class="revela">
         <span class="tag">Sobre</span>
@@ -508,31 +629,6 @@
   const WHATS = '5511959828463';
   const linkZap = msg => `https://wa.me/${WHATS}?text=${encodeURIComponent(msg)}`;
 
-  const tratamentos = [
-    {nome:'Limpeza de pele profunda', cat:'facial', icone:'i-rosto', txt:'Desobstrui os poros, remove cravos e impurezas e deixa a pele macia, suave e saudável.', chips:['Cravos','Oleosidade','Viço']},
-    {nome:'Rejuvenescimento facial', cat:'facial', icone:'i-lotus', txt:'Protocolos para melhorar a textura, a firmeza e o brilho da pele, com resultados naturais.', chips:['Firmeza','Linhas finas','Luminosidade']},
-    {nome:'Preenchimento labial', cat:'facial', icone:'i-lab', txt:'Lábios mais definidos e hidratados, com naturalidade e sem exageros.', chips:['Contorno','Volume','Naturalidade']},
-    {nome:'Carboxiterapia', cat:'corporal', icone:'i-gota', txt:'Ajuda no tratamento de gordura localizada, estrias, celulite, flacidez e olheiras, estimulando a regeneração dos tecidos.', chips:['Celulite','Estrias','Flacidez']},
-    {nome:'Endolaser', cat:'corporal', icone:'i-raio', txt:'Tecnologia para tratar gordura localizada e flacidez, com foco em contorno e firmeza.', chips:['Gordura localizada','Contorno']},
-    {nome:'Emagrecimento & medidas', cat:'corporal', icone:'i-corpo', txt:'Protocolos corporais combinados para redução de medidas e definição do contorno.', chips:['Medidas','Definição']},
-    {nome:'Drenagem linfática', cat:'corporal', icone:'i-maos', txt:'Reduz o inchaço, melhora a circulação e traz leveza. Pode aliviar sintomas do lipedema.', chips:['Inchaço','Circulação','Leveza']},
-    {nome:'Pós-operatório', cat:'corporal', icone:'i-coracao', txt:'Acompanhamento especializado após cirurgias plásticas, com a liberação do seu médico, para uma recuperação mais confortável.', chips:['Recuperação','Edema','Conforto']},
-    {nome:'Massagem relaxante', cat:'bem-estar', icone:'i-maos', txt:'Alivia tensões e dores musculares, melhora o sono e a circulação e promove bem-estar.', chips:['Estresse','Sono','Tensões']},
-    {nome:'Bronzeamento artificial', cat:'bem-estar', icone:'i-sol', txt:'Bronzeado dourado e uniforme em máquina deitada, com praticidade e segurança.', chips:['Novidade','Verão']},
-  ];
-
-  // Cards
-  const cards = document.getElementById('cards');
-  const nomeCat = {facial:'Facial', corporal:'Corporal', 'bem-estar':'Bem-estar'};
-  cards.innerHTML = tratamentos.map(t => `
-    <article class="card revela" data-cat="${t.cat}">
-      <div class="card-topo"><span class="icone"><svg><use href="#${t.icone}"/></svg></span><span class="cat">${nomeCat[t.cat]}</span></div>
-      <h3>${t.nome}</h3>
-      <p>${t.txt}</p>
-      <div class="chips">${t.chips.map(c=>`<span>${c}</span>`).join('')}</div>
-      <a class="link" target="_blank" rel="noopener" href="${linkZap(`Olá, Lau! Tenho interesse em ${t.nome}. Pode me passar mais informações?`)}">Quero saber mais <svg><use href="#i-seta"/></svg></a>
-    </article>`).join('');
-
   document.querySelectorAll('.filtro').forEach(b => b.addEventListener('click', () => {
     document.querySelectorAll('.filtro').forEach(x => x.classList.remove('ativo'));
     b.classList.add('ativo');
@@ -541,7 +637,7 @@
 
   // Formulário
   const sel = document.getElementById('servico');
-  sel.innerHTML = '<option value="Avaliação geral">Ainda não sei, quero uma avaliação</option>' + tratamentos.map(t=>`<option>${t.nome}</option>`).join('');
+  sel.innerHTML = '<option value="Avaliação geral">Ainda não sei, quero uma avaliação</option>' + [...document.querySelectorAll('.card h3')].map(h=>`<option>${h.textContent}</option>`).join('');
   document.getElementById('form').addEventListener('submit', e => {
     e.preventDefault();
     const nome = document.getElementById('nome').value.trim();
